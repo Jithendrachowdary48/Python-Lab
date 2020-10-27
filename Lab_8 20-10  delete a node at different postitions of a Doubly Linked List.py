@@ -1,7 +1,4 @@
-# A.pavan kumar - 121910313047
 # Program to delete a node at different postitions of a Doubly Linked List
-
-
 # Defining the Node class
 class Node:
     def __init__(self,data): 
@@ -50,10 +47,7 @@ class DoublyLinkedList:
                 cur = None
                 return
             cur = cur.next
-        
-
-    
-
+            
 dll = DoublyLinkedList()
 n = int(input("Enter the size of the linked list : "))
 print("Enter the elements of the linked list")
