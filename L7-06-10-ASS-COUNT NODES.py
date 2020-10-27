@@ -1,4 +1,4 @@
-#Count the number of nodes in a linked list.
+#Count the number of nodes in a linked list
 class Node: 
     def __init__(self, data): 
         self.data = data 
