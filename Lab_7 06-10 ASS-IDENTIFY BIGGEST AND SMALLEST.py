@@ -1,6 +1,5 @@
 #Identify the biggest and smallest key in a linked list containing integers.
 class Node: 
-  
     def __init__(self): 
         self.data = None
         self.next = None
